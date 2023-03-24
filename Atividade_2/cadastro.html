@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Usuários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cadastro">
+        <h1>Novos Usuários</h1>
+        <form action="index.html">
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" placeholder="Informe o seu nome" size="100px" minlength="3" maxlength="100">
+            <br><br>
+            <div class="linha1">
+                <label for="cpf">CPF:</label><br>
+                <input type="text" name="cpf" placeholder="Informe o CPF">
+
+                <label for=endereco>Endereço:</label><br>
+                <input type="text" name="endreco" placeholder="Informe o endereço" size="50">
+                <label for="nivel">Nível:</label><br>
+                <select name="nivel">
+                    <option value="">---</option>
+                </select>
+            </div>
+            <div class="linha2">
+                <label for="email">E-mail:</label><br>
+                <input type="emai" name="email" placeholder="informe o seu e-mail" size="50">
+                <label for="senha">Senha:</label><br>
+                <input type="password" name="senha" placeholder="informe a senha">
+                <label for="status">Status:</label><br>
+                <select name="Status">
+                    <option value="">---</option>
+                </select>
+            </div>
+            <div class="button">
+                <br>
+                <input type="submit" value="Enviar" class="b1"> 
+                <input type="reset" value="Cancelar" class="b2">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

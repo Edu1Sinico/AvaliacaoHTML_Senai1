@@ -1,0 +1,43 @@
+body{
+    background-color: aliceblue;
+    margin: 0px;
+}
+
+.menu{
+    height: 150px;
+    background-color: slategrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu p{
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu img{
+    width: 350px;
+}
+
+.menu2{
+    height: 50px;
+    background-color: rgb(133, 153, 173);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu2 a{
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    justify-content: flex-start;
+}
